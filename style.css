@@ -1,8 +1,7 @@
 body {
     font-family: 'Rubik', sans-serif;
-    background: #2987FF !important;
-    /* background: -webkit-linear-gradient(to right, #9baef2, #5a7bee);
-    background: linear-gradient(to right, #9baef2, #5a7bee); */
+    background: rgb(255,0,0);
+    background: linear-gradient(180deg, rgba(255,0,0,1) 0%, rgba(0,0,0,1) 100%);
 }
 
 .content-wrapper {
@@ -11,7 +10,7 @@ body {
 
 header,
 footer {
-    color: #FFF;
+    color: #000;
     letter-spacing: 1.5px;
 }
 
@@ -83,7 +82,7 @@ header h1 {
 
 .social-buttons a:hover .social-round-icon {
     background-color: #2F80ED;
-    color: #fff;
+    color: #000;
     border-color: #2F80ED;
 }
 
@@ -160,7 +159,7 @@ header h1 {
 
 header .fa-icon,
 footer .fa-icon {
-    color: #fff;
+    color: #000;
 }
 
 footer .fa-icon {
